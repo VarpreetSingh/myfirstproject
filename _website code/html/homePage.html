@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+    jQuery(document).ready(function( $ ) {
+      $('span').counterUp({
+
+        delay: 10, // the delay time in ms
+
+        time: 1000 // the speed time in ms
+
+      });
+
+    });
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="contact">
+          <p id="call">Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+        <div class="socialMediaLinks">
+          <img id="fb" src="../media/fb icon.png">
+          <img id="gPlus" src="../media/google plus icon.png">
+          <img id="linkedIn" src="../media/linkedIn icon.png">
+          <img id="pinterest" src="../media/pinterest icon.png">
+          <img id="twitter" src="../media/twitter icon.png">
+          <img id="youtube" src="../media/youtube icon.png">
+          <img id="instagram" src="../media/instagram icon.png">
+        </div>
+        </nav>
+      </div>
+
+      <div class="navigationBar">
+        <div class="logo">
+          <img src="../media/Logo.png" alt="" id="logo">
+        </div>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class=" searchBar" placeholder="You want to look for...">
+              <img id="loginbutton" src="../media/google-web-search-xxl.png" >
+              <button type="button" class="btn-primary loginbutton" >Login</button>
+          </div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Faculty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Placement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Campus</a>
+            </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="mainvideo">
+        <video autoplay="autoplay" loop="loop" muted="">
+          <source src="../media/demo.mp4" type="video/mp4" />
+        </video>
+        <div class="bannerText">
+          <h6 id="heading2"><u>THE BEST LEARNING INSTITUTION</u></h6>
+          <h1 id="heading1">Asia-Pacific Institute of Management</h1>
+          <h6 id="heading2">Approved by AICTE (MHRD, Govt. of India)</h6>
+          <p id="b1"><button type="button" class="btn btn-danger chatButton">Live Chat</button></p>
+          <p id="b2"><button type="button" class="btn btn-info contactButton">Contact Us</button></p>
+          <p id="b3"><button type="button" class="btn btn-success applyButton">Apply Now</button></p>
+        </div>
+      </div>
+
+      <div class="bannerFooter">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card cat11" style="height:17rem">
+                <div class="containerHeading">
+                <p id="ph">Placements</p>
+                </div>
+                <div class="containerContent">
+                  <ul type="none">
+                    <br>
+                    <li><a href="#"  id="placements">Placements (2015-2017)</a></li>
+                    <br>
+                    <li><a href="#" id="placements">Placements (2014-2016)</a></li>
+                  </ul>
+                </div>
+                <br>
+                <button type="button" class="placementViewMore">VIEW MORE</button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat22" style="height:17rem">
+                <div class="containerHeading">
+                  <p id="ph1">Latest News</p>
+                </div>
+                <div class="dummyln">
+                  <p>Adman Mr. Prahlad Kakkar to address Management<br><br><i>8th Sept 2017</i></p>
+                  <p>AIM to hold the 18th Convocation Ceremony.<br><br><i>16th Sept 2017</i></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat33" style="height:17rem">
+                <div class="containerHeading">
+                  <p id="ph2">Upcoming Events</p>
+                </div>
+                <div class="dummyln">
+                  <p>2017 National Summit.<br><i>9th Sept 2017</i><br><a href="#" id="cddd">READ MORE</a></p>
+                  <p>Management Development Programme<br><i>21st and 22nd sept 2017</i><br><a href="#" id="cddd">READ MORE</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat44" style="height:17rem">
+                <div class="containerHeading">
+                  <p id="ph2">Admissions 2017-2019</p>
+                </div>
+                <div class="containerContent">
+                  <ul type="none">
+                    <br>
+                    <li><a href="#" id="placements">Download Brochure</a></li>
+                    <br>
+                    <li><a href="#" id="placements">Announcement</a></li>
+                  </ul>
+                </div>
+                <br>
+                <button type="button" class="admissionsViewMore">APPLY ONLINE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="academicProgrammes">
+        <img src="../media/p2.png" alt="" id="ssl1">
+        <h6 class="admheadingtop">WE HAVE THE LARGEST COLLECTION OF COURSES</h6>
+        <h3 class="admheadingbottom">Academic Programmes</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card text-white card4" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">PGDM</h4>
+                  <p class="card-text">Two Year Full-Time (Approved by AICTE, Ministry of HRD, Government of India)</p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white card5" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">PGDM Marketing</h4>
+                  <p class="card-text">PGDM Marketing programme is spread over a period of two years </p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white card6" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">PGDM IB</h4>
+                  <p class="card-text">PGDM (IB) - program is spread over a period of two years WIth the most comprehensive curriculum.</p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card text-white card1" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">PGDM BFS</h4>
+                  <p class="card-text">Post Graduate Diploma in Management BFS is a two year full time program</p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white card2" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">IBM SPSS Statistics Certification</h4>
+                  <p class="card-text">IBM SPSS Statistics Certification is a mid-December (10 days Intensive Training Program)</p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white card3" style="height:13rem">
+                <div class="card-body">
+                  <h4 class="card-title ctt">Executive - PGDM</h4>
+                  <p class="card-text">The 3 years Executive PGDM Programme is specially designed for working professionals</p>
+                  <a href="#" class="btn btn-link">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="faculty">
+        <img src="../media/p3.png" alt="" id="ssl1">
+        <h6 class="admheadingtop">WE HAVE A LARGE FACULTY BASE</h6>
+        <h3 class="admheadingbottom">Faculty</h3>
+        <div class="facultySlider">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="../media/f1.jpg" alt="" id="carousel">
+              </div>
+              <div class="col">
+                <img src="../media/f2.jpg" alt="" id="carousel">
+              </div>
+              <div class="col">
+                <img src="../media/f3.jpg" alt="" id="carousel">
+              </div>
+              <div class="col">
+                <img src="../media/f4.jpg" alt="" id="carousel">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class=" vAll btn btn-warning"><a href="../html/facultyCover.html">VIEW ALL</a></button>
+      </div>
+
+      <div class="facultyAchievements">
+        <img src="../media/p3.png" alt="" id="ssl1">
+        <h6 class="admheadingtop">WE HAVE A LARGE FACULTY BASE</h6>
+        <h3 class="admheadingbottom">Faculty Achievements</h3>
+        <div class="container">
+
+          <div class="facultyAchievementsSections row">
+            <div class="col">
+              <div class="card cat1" style="height:17rem">
+                <img class="card-img-top" src="../media/60_R.k.Shrivastava.jpg" alt="Card image cap">
+                <p id="cd">Prof. R.K.Srivastava has done his M.Com. from  F.C.M.A. (Fellow of Institute of Cost and Works Accountants of India) </p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat2" style="height:17rem">
+                  <img class="card-img-top" src="../media/95_drspch.JPG" alt="Card image cap">
+                  <p id="cd">Dr. S.P. Chauhan has received his Doctorate in Psychology from Panjab University, Chandigarh.</p>
+                  <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat3" style="height:17rem">
+                <img class="card-img-top" src="../media/468_IMG_2299.JPG" alt="Card image cap">
+                <p id="cd">Dr. Dahiya is a Master’s in Economics from Kurukshetra University and Ph.D. in Economics from Jamia Millia Islamia</p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat4" style="height:17rem">
+                <img class="card-img-top" src="../media/484_surabhi.jpg" alt="Card image cap">
+                <p id="cd">Dr. Surabhi Goyal has an experience of 15 years and continues to hold passion for teaching all levels</p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <button type="button" class=" vAll btn btn-warning">VIEW ALL</button>
+      </div>
+
+      <div class="latestEvents">
+        <img src="../media/p4.png" alt="" id="ssl1">
+        <h6 class="admheadingtop">WE ORGANIZE LOTS OF EVENTS AND SEMINARS</h6>
+        <h3 class="admheadingbottom">Latest News</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card cat1" style="height:11rem">
+                <img src="../media/148_145_prahlad kakkar.jpg" alt="" id="ln">
+                <div class="desc">
+                  Prahlad Kakkar to visit AIM on 8th September 2017</div>
+                <div class="source">
+                  <br>
+                  Times of India
+
+                  <br>
+                  <button type="button" name="button" class="rm">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat2" style="height:11rem">
+                <img src="../media/147_news-update-5656.jpg" alt="" id="ln">
+                <div class="desc">
+                  2017 National Summit on 9th sept at Hotel Taj Mahal
+                </div>
+                <div class="source">
+                  <br>
+                  Times of India
+
+                  <br>
+                  <button type="button" name="button" class="rm">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat3" style="height:11rem">
+                <img src="../media/146_convocation-news.jpg" alt="" id="ln">
+                <div class="desc">
+                  18th Annual Convocation on 16th sept 2017
+                </div>
+                <div class="source">
+                  <br>
+                  Times of India
+
+                  <br>
+                  <button type="button" name="button" class="rm">Read More</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button type="button" class=" vAll btn btn-warning">READ MORE</button>
+      </div>
+
+      <div class="currentEvents">
+        <img src="../media/p5.png" alt="" id="ssl1">
+        <h6 class="admheadingtop">WE ORGANIZE LOTS OF EVENTS AND SEMINARS</h6>
+        <h3 class="admheadingbottom">Current Events</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card cat1" style="height:17rem">
+                <img class="card-img-top" src="../media/146_convocation-news.jpg" alt="Card image cap">
+                <p id="cd">18th Annual Convocation on 16th sept 2017 of AIM</p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat2" style="height:17rem">
+                  <img class="card-img-top" src="../media/147_news-update-5656.jpg" alt="Card image cap">
+                  <p id="cd">2017 National Summit on 9th sept at Hotel Taj Mahal</p>
+                  <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat3" style="height:17rem">
+                <img class="card-img-top" src="../media/148_145_prahlad kakkar.jpg" alt="Card image cap">
+                <p id="cd">Prahlad Kakkar to visit AIM on 8th September 2017</p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cat4" style="height:17rem">
+                <img class="card-img-top" src="../media/147_news-update-5656.jpg" alt="Card image cap">
+                <p id="cd">2017 National Summit on 9th sept at Hotel Taj Mahal</p>
+                <a href="#" id="cdd">READ MORE</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button type="button" class=" vAll btn btn-warning">ALL EVENTS</button>
+      </div>
+
+      <div class="alumni">
+        <img src="../media/alumni_background.png" alt="" class="alumniImage">
+        <div class="counters">
+          <div class="row alumniCounters">
+            <div class="col">
+                <div class="count1"><span>300</span>+</div>
+            </div>
+            <div class="col">
+                <div class="count2"><span>500</span>+</div>
+            </div>
+            <div class="col">
+                <div class="count3"><span>700</span>+</div>
+            </div>
+            <div class="col">
+                <div class="count4"><span>950</span>+</div>
+            </div>
+          </div>
+          <div class="row alumniIdentifiers">
+            <div class="col">
+              <div class="">Entrepreneurs</div>
+            </div>
+            <div class="col CIOs">
+              <div class="">CIOs</div>
+            </div>
+            <div class="col CTOs">
+              <div class="">CTOs</div>
+            </div>
+            <div class="col BusinessHeads">
+                <div class="">Business_Heads </div>
+            </div>
+          </div>
+        </div>
+        <div class="alumniImageForCounters">
+          <img src="../media/alumni_student.png" alt="" class="alumniStudent">
+        </div>
+        <div class="logoMin">
+          <img src="../media/logoMin.png" alt="" class="logoMin">
+        </div>
+        <div class="alumniDetails">
+          <h4>Alumni Details</h4>
+        </div>
+          <button type="button" class="btn btn-warning alumniButton1">ENROLL NOW</button>
+          <button type="button" class="btn btn-outline-warning alumniButton2">LEARN MORE</button>
+      </div>
+      <div class="underline">
+        <img src="../media/underline.jpg" alt="underline">
+      </div>
+      <div class="underline1">
+        <img src="../media/underline.jpg" alt="underline">
+      </div>
+      <div class="underline2">
+        <img src="../media/underline.jpg" alt="underline">
+      </div>
+      <div class="underline3">
+        <img src="../media/underline.jpg" alt="underline">
+      </div>
+
+      <div class="footer">
+          <div class="connectWithUs">
+            <br>
+            <p id="hcc">Connect With Us<p>
+            <p id="p1"><img src="../media/p6.png" alt="" id="c1">Asia Pacific Institute of Management</p>
+            <p id="commonP">3 & 4 Institutional Area, Jasola,<br>
+            New Delhi - 110025</p>
+            <p id="p2"><img src="../media/p7.png" alt="" id="c2">Admission Query :</p>
+            <p id="commonP1">8287252525 / 8287454545</p>
+            <p id="p3"><img src="../media/p8.png" alt="" id="c3">Phone: +91-11-42094800</p>
+            <p id="commonP2">Toll Free No : 1800113334</p>
+            <p id="p4"><img src="../media/p9.png" alt="" id="c4">Email: admissions@asiapacific.edu</p>
+          </div>
+        <div class="lowerSection">
+          <div class="innerDiv">
+            <div class="f1">
+                <img src="../media/logoMin.png" alt="" class="f11">
+            </div>
+            <div class="f2">
+              <h5>Asia Pacific Institute <br>of management</h5>
+            </div>
+            <div class="f3">
+              Asia-Pacific Institute of Management<br> is a top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).
+              <br>
+            </div>
+            <div class="f4">
+              <ul type="none">
+                <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+                <br>
+                <li><a href="#">PGDM</a></li>
+                <li><a href="#">PGDM DCP</a></li>
+                <li><a href="#">PGDM Executive</a></li>
+                <li><a href="#">PGDM Part Time</a></li>
+                <li><a href="#">PGPM</li>
+                <li><a href="#">Mandatory Disclosures</a></li>
+                <li><a href="#">NIRF 2017</a></li>
+              </ul>
+            </div>
+            <div class="f5">
+              <ul type="none">
+                <li id="fhh"><strong>ADMISSION</strong></li>
+                <br>
+                <li><a href="">International Admissions</a></li>
+                <li><a href="">PGDM Executive</a></li>
+                <li><a href="">PGDM Part Time</a></li>
+                <li><a href="">Admission Brochure</a></li>
+                <li><a href="">Admissions Committee</a></li>
+              </ul>
+            </div>
+            <div class="f6">
+                <ul type="none">
+                  <li id="fhh"><strong>ALUMNI</strong></li>
+                  <br>
+                  <li><a href="">Alumni in News</a></li>
+                  <li><a href="">Alumni Events</a></li>
+                  <li><a href="">Alumni Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="f7">
+              <ul type="none">
+                <li id="fhh"><strong>OTHER LINKS</strong></li>
+                <br>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Library</a></li>
+                <li><a href="">APIM News</a></li>
+                <li><a href="">APIM Online</a></li>
+                <li><a href="">Webmail</a></li>
+                <li><a href="">Accreditions</a></li>
+                <li><a href="">Careers@APIM</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Image Gallery</a></li>
+                <li><a href="">Video Gallery</a></li>
+                <li><a href="">AIM Live</a></li>
+              </ul>
+            </div>
+            <div class="f8">
+              <ul type="none">
+                <li><strong>REQUEST A CALL BACK</strong></li>
+                <br>
+                <li id="ff"><input type="text" name="" value="" placeholder="Name:"></li>
+                <br>
+                <li id="ff"><input type="text" name="" value="" placeholder="Phone No:"></li>
+                <br>
+                <li id="ff"><input type="text" name="" value="" placeholder="Email:"></li>
+                <br>
+                <li id="ff"><input type="text" name="" value="" placeholder="Query:"></li>
+                <br>
+                <button type="button" class="btn-warning enow">ENROLL NOW</button>
+              </ul>
+            </div>
+            <div class="footersocialMediaLinks">
+              <a href="#"><img id="ffb" src="../media/fb icon.png"></a>
+              <a href="#"><img id="fgPlus" src="../media/google plus icon.png"></a>
+              <a href="#"><img id="flinkedIn" src="../media/linkedIn icon.png"></a>
+              <a href="#"><img id="ftwitter" src="../media/twitter icon.png"></a>
+              <a href="#"><img id="fyoutube" src="../media/youtube icon.png"></a>
+              <a href="#"><img id="finstagram" src="../media/instagram icon.png"></a>
+            </div>
+            <div class="acc">
+              <br>
+              <p id="accr">Accreditions:</p>
+              <div class="row">
+                <div class="col">
+                  <img src="../media/1.png" alt="" id="accimg">
+                </div>
+                <div class="col">
+                  <img src="../media/2.png" alt="" id="accimg">
+                </div>
+                <div class="col">
+                  <img src="../media/3.png" alt="" id="accimg">
+                </div>
+                <div class="col">
+                  <img src="../media/4.png" alt="" id="accimg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

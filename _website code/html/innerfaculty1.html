@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=mykey&sensor=false"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script>
+    <script type="text/javascript">
+        function openCity(evt, cityName) {
+
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      document.getElementById("allTab").click();
+    </script>
+
+
+    <title></title>
+  </head>
+  <body>
+    <div class="parentContainer">
+
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="contact">
+          <p>Call Us On: 180011334    |    Email: admissions@asiapacific.edu</p>
+        </div>
+        <div class="socialMediaLinks">
+          <img id="fb" src="../media/fb icon.png">
+          <img id="gPlus" src="../media/google plus icon.png">
+          <img id="linkedIn" src="../media/linkedIn icon.png">
+          <img id="pinterest" src="../media/pinterest icon.png">
+          <img id="twitter" src="../media/twitter icon.png">
+          <img id="youtube" src="../media/youtube icon.png">
+          <img id="instagram" src="../media/instagram icon.png">
+        </div>
+        </nav>
+      </div>
+
+      <div class="navigationBar">
+        <div class="logo">
+          <img src="../media/Logo.png" alt="" id="logo">
+        </div>
+        <div class="menuLinks">
+          <div class="input-group searchButton">
+            <input type="text" class="form-control" placeholder="You want to look for..." aria-label="Search for...">
+              <button class="btn-secondary loginbutton" type="button">Search!</button>
+              <button type="button" class="btn-primary loginbutton" >Login</button>
+          </div>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Library</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Faculty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Placement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Campus</a>
+            </li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="facultyBanner">
+        <img src="../media/22_facultybackground.jpg" alt="">
+        <h2 class="mf">Meet The Faculty</h2>
+        <h3 class="aim">Asia Pacific Institute of Management</h3>
+        <img src="../media/Faculty.png" alt="" id="facultyLogo">
+      </div>
+
+      <div class="btngrp container">
+        <div class="row">
+          <div class="col">
+            <button type="button" name="button" class="btn111">Core Faculty</button>
+          </div>
+          <div class="col">
+            <button type="button" name="button" class="btn111">Visiting Faculty</button>
+          </div>
+          <div class="col">
+            <button type="button" name="button" class="btn111">Management Team</button>
+          </div>
+          <div class="col">
+            <button type="button" name="button" class="btn111">International Faculty</button>
+          </div>
+          <div class="col">
+            <button type="button" name="button" class="btn111">Guest Speakers</button>
+          </div>
+          <div class="col">
+            <button type="button" name="button" class="btn111">MDP and Consultancy</button>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+      <h3 id="fp">Faculty Profile</h3>
+      <br>
+      <h6 id="ap"><strong>INDIVISUAL PROFILE</strong></h6>
+
+      <div class="row ">
+        <div class="col r11">
+          <a href=""><img src="../media/f5.jpg" alt="" id="fimage"></a>
+        </div>
+        <div class="col">
+          <h2 id="fname">Dr. S.P. Chauhan</h2>
+          <br>
+          <p><strong><i>Professor</i></strong><br>
+            <strong>Area : Organizational Behaviour and Human Resource Management.</strong>
+            <br>
+            <i><strong>Experience: 21 Years</strong></i><br>
+            M.A., Ph.D. (Psychology)
+            </p>
+
+
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col ">
+          <div class="contactDetailsSection">
+            <img src="../media/Contact-Prof.png" alt=""><p id="contactDetails"><strong>Contact Details</strong></p>
+            <p><u>spchauhan@asiapacific.edu</u><br>+91-1234567890</p>
+            <div class="socialConnect">
+              <img id="fb" src="../media/fb icon.png">
+              <img id="gPlus" src="../media/google plus icon.png">
+              <img id="linkedIn" src="../media/linkedIn icon.png">
+              <img id="pinterest" src="../media/pinterest icon.png">
+              <img id="twitter" src="../media/twitter icon.png">
+              <img id="instagram" src="../media/instagram icon.png">
+            </div>
+            <div class="downloadProfile">
+              <img src="../media/adobe.png" alt="" id="adobeicon">
+              <button type="button" name="button" class="btn" id="adobedownloadbutton">Download Full Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <button class="tablinks1" onclick="openCity(event, 'All')" id="allTab">Profile Overview</button>
+        <button class="tablinks1" onclick="openCity(event, 'BusinessAnalytics')">Research and Publications</button>
+        <button class="tablinks1" onclick="openCity(event, 'BusinessCommunication')">Articles</button>
+        <button class="tablinks1" onclick="openCity(event, 'EconomicEnvironmentandPolicy')">Awards and Achievements</button>
+        <button class="tablinks1" onclick="openCity(event, 'Finance')">Consultancy and MDP's</button>
+      </div>
+      <div class="">
+          <div id="All" class="tabcontent">
+            Dr. S.P. Chauhan is a Professor in the area of Organizational Behaviour and Human Resource Management. He has received his Doctorate in Psychology from Panjab University, Chandigarh. Before joining Asia Pacific Institute of Management, Dr. Chauhan was associated with some of the top business schools in Delhi like FORE School of Management, Shri Ram Centre for IR & HR, New Delhi, as a Professor of OB & HR. Earlier he was also associated with Centre for Management Development (CMD), Modinagar as a Director, and as a Director & Professor with Sri Sharada Institute of Indian Management - Research, New Delhi.
+
+            He has authored a book "Effective Leadership: Strategies for Better Results" and published 29 papers and articles in the well known journals. Dr. Chauhan has conducted MDPs for various organizations such as NTPC, NHPC, ONGC, EIL, NSPCL, BEL, NALCO, IOCL, NBCC, Petronet LNG Ltd, Power Grid Corporation, NDPL, Maruti Udyog Ltd., BPR&D, Whirlpool, DCM Engineering, etc.
+
+            Dr. Chauhan's specific areas of interest are: Personality Profiling, Professional Obsolescence, Leadership, Team Building and Group Dynamics, Emotional Intelligence, Managing Change, Developing Positive Attitude, HR Practices etc.
+          </div>
+
+        <div id="BusinessAnalytics" class="tabcontent">
+          1.	"Optimism vs Pessimism Revisited", Indian Journal of Training & Development (IJTD), Vol. XXII, No. 3, July-Sept. 1993.
+
+          2.	"Managerial Obsolescence - Issues and Strategies", MDI Management Journal, Vol. 9, No. 1, January 1996.
+
+          3.	"Managerial Burnout: A Study of Managers from Government, Public and Private Sectors", (jointly with Vidhu Mohan and Daisy Chauhan), Management and Change, Vol.3, No.1, January-June, 1999, pp. 129-150.
+
+          4.	"Effects of Locus of Control and Motives on Stress and Effectiveness: A Study of Women Managers", (Jointly with Vidhu Mohan and Daisy Chauhan), Vision: The Journal of Business Perspective, Vol. 4, No.1, January-June, 2000, pp. 41-47.
+
+          5.	"Moderating Effect of Locus of Control on Organisational Role Stress", (Jointly with Vidhu Mohan and Daisy Chauhan), Paradigm , Vol.4, No.1, January-June, 2000.
+
+          6.	"A Pre-Post Test Design to Study the Effect of Training on perceived Obsolescence", (Jointly with Vidhu Mohan), Research Methods, UBS, Panjab Univ., Chandigarh .
+
+          7.	"Are you aware how your personality type affects your behaviour" (Jointly with Daisy Chauhan), Global Business Review, July-December, 2001.
+
+          8.	"Are Managers Becoming Obsolescents? An Empirical Study", (jointly with Vidhu Mohan and Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 36, No. 1, July 2001.
+
+          9.	"Work Motivation of Managers in a Mixed Economy: A Comparative Study" (Jointly with Daisy Chauhan), Management and Change, Vol. 5, No. 2 winter, July-Dec. 2001.
+
+          10.	Relevance of Corporate Governance in a Competitive Environment, (Jointly with Daisy Chauhan), in Wining Globally: Competitive Strategies, Indore Management Association, Excel Books, New Delhi (2002).
+
+          11.	Ethical Dilemmas Faced by Managers: Some Real Life Cases (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 37, No. 3, Jan. 2002.
+
+          12.	Future Directions for HRD : Aligning the HR Function to Organisational Goals (Jointly with Daisy Chauhan), Management and Change, Vol. 6, No. 2 winter, July-Dec. 2002.
+
+          13.	Gaining Competitive Edge : The People-Oriented Approach (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 38, No. 2, October, 2002.
+
+          14.	Influence of Orientation on Managerial Effectiveness: A Study of Effect of LOC on Role Effectiveness, (Jointly with Daisy Chauhan), Productivity, Vol. 44, No. 3, October-Dec., 2003.
+
+          15.	Professional Obsolescence: Causes and Preventive Measures (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 39, No. 3, Jan., 2004.
+
+          16.	Stress: Can it be a Motivating Force for Realizing Your Potential? (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 40, No. 3, Jan., 2005.
+
+          17.	Overcoming Managerial Obsolescence: The Key to Human Development, (Jointly with Daisy Chauhan), in Creating Value through People, Excel Books, New Delhi (2005), pp. 321-338.
+
+          18.	Personality at Workplace (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 41, No. 3, Jan., 2006.
+
+          19.	"Professional Obsolescence", Annual Handbook of Human Resource Initiatives 2007, (Ed.) Mahaveer Jain and Partha Sarathi, pub. by Initiatives and Interventions, Delhi., pp.141-158, 2007
+
+          20.	A Proactive Approach to Managing Stress (jointly with Daisy Chauhan), in Prabandhan: CMD Journal of Management, Vol. 1, No. 1, Jan-June, 2007.
+
+          21.	Effect of Personality on Problem Solving and Decision Making, (jointly with Daisy Chauhan), Productivity, Vol.48, No.2, April-June, 2007.
+
+          22.	Motivation: The Key to Performance Improvement, (Jointly with Daisy Chauhan), Management & Change, Vol.11, No.2, July-December, 2007.
+
+          23.	Emotional Intelligence: Does it influence Decision Making and Role Efficacy?, (jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 43, No. 2, October, 2007.
+
+          24.	Human Obsolescence: A Wake-up Call to Avert a Crisis, (jointly with Daisy Chauhan), Global Business Review, Vol.9, No.1, January-June, 2008.
+
+          25.	Are you on the Verge of Obsolescence, Indian Journal of Industrial Relations,
+          (jointly with Daisy Chauhan), Vol. 45, No. 2, April, 2009.
+
+          26.	Case: Universal Ltd., (jointly with Daisy Chauhan), Organisational Behaviour and Human Resource Management, (Eds. Mirza Saiyadain, J.S. Sodhi and Rama Joshi) McGraw Hill, 2009.
+
+          27.	Case: Tiger Toys., (jointly with Daisy Chauhan), Organisational Behaviour and Human Resource Management, (Eds. Mirza Saiyadain, J.S. Sodhi and Rama Joshi) McGraw Hill, 2009.
+
+          28.	"Professional Obsolescence in Relation to Job Involvement and Burnout", (jointly with Vidhu Mohan) Business Psychology, (Ed.) Novrattan Sharma & Amrita Yadava, Global Vision Publishing House, New Delhi, 2010.
+
+          29.	Working Paper: Organizational Culture in China: An Overview (unpublished)
+        </div>
+
+        <div id="BusinessCommunication" class="tabcontent">
+          Dr. S.P. Chauhan is a Professor in the area of Organizational Behaviour and Human Resource Management. He has received his Doctorate in Psychology from Panjab University, Chandigarh. Before joining Asia Pacific Institute of Management, Dr. Chauhan was associated with some of the top business schools in Delhi like FORE School of Management, Shri Ram Centre for IR & HR, New Delhi, as a Professor of OB & HR. Earlier he was also associated with Centre for Management Development (CMD), Modinagar as a Director, and as a Director & Professor with Sri Sharada Institute of Indian Management - Research, New Delhi.
+
+          He has authored a book "Effective Leadership: Strategies for Better Results" and published 29 papers and articles in the well known journals. Dr. Chauhan has conducted MDPs for various organizations such as NTPC, NHPC, ONGC, EIL, NSPCL, BEL, NALCO, IOCL, NBCC, Petronet LNG Ltd, Power Grid Corporation, NDPL, Maruti Udyog Ltd., BPR&D, Whirlpool, DCM Engineering, etc.
+
+          Dr. Chauhan's specific areas of interest are: Personality Profiling, Professional Obsolescence, Leadership, Team Building and Group Dynamics, Emotional Intelligence, Managing Change, Developing Positive Attitude, HR Practices etc.
+        </div>
+        <div id="EconomicEnvironmentandPolicy" class="tabcontent">
+          1.	Employee Satisfaction Survey for NTPC
+          2.	Impact of Change in NDPL, New Delhi
+          3.	Industrial Scenario and IR Climate in Udham Singh Nagar and Haridwar districts of Uttaranchal State.
+          4.	Conducted a study (funded by WHO) on Quality of Work Life of Nurses in three states (West Bengal, Himachal Pradesh, and Maharashtra).
+          5.	Study of HR Policies and Practices in NTPC.
+          6.	Study of Performance Indicators of six Delhi Police Stations of Delhi (sponsored by Bureau of Police Research Department).
+          7.	HR Policies and Practices for NHPC.
+          8.	Organizational Climate Survey for ONGC.
+
+          Conducted MDPs for various organizations such as NTPC, NHPC, ONGC, EIL, NSPCL, BEL, NALCO, IOCL, NBCC, Petronet LNG Ltd, Power Grid Corporation, NDPL, Maruti Udyog Ltd., BPR&D, Whirlpool, DCM Engineering, etc.
+          </div>
+
+
+        <div id="Finance" class="tabcontent">
+          1.	"Optimism vs Pessimism Revisited", Indian Journal of Training & Development (IJTD), Vol. XXII, No. 3, July-Sept. 1993.
+
+          2.	"Managerial Obsolescence - Issues and Strategies", MDI Management Journal, Vol. 9, No. 1, January 1996.
+
+          3.	"Managerial Burnout: A Study of Managers from Government, Public and Private Sectors", (jointly with Vidhu Mohan and Daisy Chauhan), Management and Change, Vol.3, No.1, January-June, 1999, pp. 129-150.
+
+          4.	"Effects of Locus of Control and Motives on Stress and Effectiveness: A Study of Women Managers", (Jointly with Vidhu Mohan and Daisy Chauhan), Vision: The Journal of Business Perspective, Vol. 4, No.1, January-June, 2000, pp. 41-47.
+
+          5.	"Moderating Effect of Locus of Control on Organisational Role Stress", (Jointly with Vidhu Mohan and Daisy Chauhan), Paradigm , Vol.4, No.1, January-June, 2000.
+
+          6.	"A Pre-Post Test Design to Study the Effect of Training on perceived Obsolescence", (Jointly with Vidhu Mohan), Research Methods, UBS, Panjab Univ., Chandigarh .
+
+          7.	"Are you aware how your personality type affects your behaviour" (Jointly with Daisy Chauhan), Global Business Review, July-December, 2001.
+
+          8.	"Are Managers Becoming Obsolescents? An Empirical Study", (jointly with Vidhu Mohan and Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 36, No. 1, July 2001.
+
+          9.	"Work Motivation of Managers in a Mixed Economy: A Comparative Study" (Jointly with Daisy Chauhan), Management and Change, Vol. 5, No. 2 winter, July-Dec. 2001.
+
+          10.	Relevance of Corporate Governance in a Competitive Environment, (Jointly with Daisy Chauhan), in Wining Globally: Competitive Strategies, Indore Management Association, Excel Books, New Delhi (2002).
+
+          11.	Ethical Dilemmas Faced by Managers: Some Real Life Cases (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 37, No. 3, Jan. 2002.
+
+          12.	Future Directions for HRD : Aligning the HR Function to Organisational Goals (Jointly with Daisy Chauhan), Management and Change, Vol. 6, No. 2 winter, July-Dec. 2002.
+
+          13.	Gaining Competitive Edge : The People-Oriented Approach (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 38, No. 2, October, 2002.
+
+          14.	Influence of Orientation on Managerial Effectiveness: A Study of Effect of LOC on Role Effectiveness, (Jointly with Daisy Chauhan), Productivity, Vol. 44, No. 3, October-Dec., 2003.
+
+          15.	Professional Obsolescence: Causes and Preventive Measures (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 39, No. 3, Jan., 2004.
+
+          16.	Stress: Can it be a Motivating Force for Realizing Your Potential? (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 40, No. 3, Jan., 2005.
+
+          17.	Overcoming Managerial Obsolescence: The Key to Human Development, (Jointly with Daisy Chauhan), in Creating Value through People, Excel Books, New Delhi (2005), pp. 321-338.
+
+          18.	Personality at Workplace (Jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 41, No. 3, Jan., 2006.
+
+          19.	"Professional Obsolescence", Annual Handbook of Human Resource Initiatives 2007, (Ed.) Mahaveer Jain and Partha Sarathi, pub. by Initiatives and Interventions, Delhi., pp.141-158, 2007
+
+          20.	A Proactive Approach to Managing Stress (jointly with Daisy Chauhan), in Prabandhan: CMD Journal of Management, Vol. 1, No. 1, Jan-June, 2007.
+
+          21.	Effect of Personality on Problem Solving and Decision Making, (jointly with Daisy Chauhan), Productivity, Vol.48, No.2, April-June, 2007.
+
+          22.	Motivation: The Key to Performance Improvement, (Jointly with Daisy Chauhan), Management & Change, Vol.11, No.2, July-December, 2007.
+
+          23.	Emotional Intelligence: Does it influence Decision Making and Role Efficacy?, (jointly with Daisy Chauhan), Indian Journal of Industrial Relations, Vol. 43, No. 2, October, 2007.
+
+          24.	Human Obsolescence: A Wake-up Call to Avert a Crisis, (jointly with Daisy Chauhan), Global Business Review, Vol.9, No.1, January-June, 2008.
+
+          25.	Are you on the Verge of Obsolescence, Indian Journal of Industrial Relations,
+          (jointly with Daisy Chauhan), Vol. 45, No. 2, April, 2009.
+
+          26.	Case: Universal Ltd., (jointly with Daisy Chauhan), Organisational Behaviour and Human Resource Management, (Eds. Mirza Saiyadain, J.S. Sodhi and Rama Joshi) McGraw Hill, 2009.
+
+          27.	Case: Tiger Toys., (jointly with Daisy Chauhan), Organisational Behaviour and Human Resource Management, (Eds. Mirza Saiyadain, J.S. Sodhi and Rama Joshi) McGraw Hill, 2009.
+
+          28.	"Professional Obsolescence in Relation to Job Involvement and Burnout", (jointly with Vidhu Mohan) Business Psychology, (Ed.) Novrattan Sharma & Amrita Yadava, Global Vision Publishing House, New Delhi, 2010.
+
+          29.	Working Paper: Organizational Culture in China: An Overview (unpublished)
+        </div>
+      </div>
+
+      <div class="lowerSectionfp">
+        <div class="innerDiv">
+          <div class="f1">
+              <img src="../media/logoMin.png" alt="" class="f11">
+          </div>
+          <div class="f2">
+            <h5>Asia Pacific Institute <br>of management</h5>
+          </div>
+          <div class="f3">
+            Asia-Pacific Institute of Management<br> is a top ranked Business School of India.<br> The latest Business Today - MDRA survey<br> ranked the Institute "6th" amongst private<br> B-Schools in North India (9th amongst all<br> B-Schools in North India).
+            <br>
+          </div>
+          <div class="f4">
+            <ul type="none">
+              <li id="fhh"><strong>ACADEMIC<br> PROGRAMMES</strong></li>
+              <br>
+              <li><a href="#">PGDM</a></li>
+              <li><a href="#">PGDM DCP</a></li>
+              <li><a href="#">PGDM Executive</a></li>
+              <li><a href="#">PGDM Part Time</a></li>
+              <li><a href="#">PGPM</li>
+              <li><a href="#">Mandatory Disclosures</a></li>
+              <li><a href="#">NIRF 2017</a></li>
+            </ul>
+          </div>
+          <div class="f5">
+            <ul type="none">
+              <li id="fhh"><strong>ADMISSION</strong></li>
+              <br>
+              <li><a href="">International Admissions</a></li>
+              <li><a href="">PGDM Executive</a></li>
+              <li><a href="">PGDM Part Time</a></li>
+              <li><a href="">Admission Brochure</a></li>
+              <li><a href="">Admissions Committee</a></li>
+            </ul>
+          </div>
+          <div class="f6">
+              <ul type="none">
+                <li id="fhh"><strong>ALUMNI</strong></li>
+                <br>
+                <li><a href="">Alumni in News</a></li>
+                <li><a href="">Alumni Events</a></li>
+                <li><a href="">Alumni Newsletter</a></li>
+              </ul>
+          </div>
+          <div class="f7">
+            <ul type="none">
+              <li id="fhh"><strong>OTHER LINKS</strong></li>
+              <br>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Library</a></li>
+              <li><a href="">APIM News</a></li>
+              <li><a href="">APIM Online</a></li>
+              <li><a href="">Webmail</a></li>
+              <li><a href="">Accreditions</a></li>
+              <li><a href="">Careers@APIM</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Image Gallery</a></li>
+              <li><a href="">Video Gallery</a></li>
+              <li><a href="">AIM Live</a></li>
+            </ul>
+          </div>
+          <div class="f8">
+            <ul type="none">
+              <li id="rqcb"><strong>REQUEST A CALL BACK</strong></li>
+              <br>
+              <li id="ff"><input type="text" name="" value="" placeholder="Name:"></li>
+              <br>
+            enow  <li id="ff"><input type="text" name="" value="" placeholder="Phone No:"></li>
+              <br>
+              <li id="ff"><input type="text" name="" value="" placeholder="Email:"></li>
+              <br>
+              <li id="ff"><input type="text" name="" value="" placeholder="Query:"></li>
+              <br>
+              <button type="button" class="btn-warning enow">ENROLL NOW</button>
+            </ul>
+          </div>
+          <div class="footersocialMediaLinks">
+            <a href="#"><img id="ffb" src="../media/fb icon.png"></a>
+            <a href="#"><img id="fgPlus" src="../media/google plus icon.png"></a>
+            <a href="#"><img id="flinkedIn" src="../media/linkedIn icon.png"></a>
+            <a href="#"><img id="ftwitter" src="../media/twitter icon.png"></a>
+            <a href="#"><img id="fyoutube" src="../media/youtube icon.png"></a>
+            <a href="#"><img id="finstagram" src="../media/instagram icon.png"></a>
+          </div>
+          <div class="acc">
+            <br>
+            <p id="accr">Accreditions:</p>
+            <div class="row">
+              <div class="col">
+                <img src="../media/1.png" alt="" id="accimg">
+              </div>
+              <div class="col">
+                <img src="../media/2.png" alt="" id="accimg">
+              </div>
+              <div class="col">
+                <img src="../media/3.png" alt="" id="accimg">
+              </div>
+              <div class="col">
+                <img src="../media/4.png" alt="" id="accimg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
